@@ -1,0 +1,8 @@
+### First install docker in EC2 ###
+## Then install jenkins in docker container ###
+docker container run -d \
+  -p 8080:8080 \
+  -v jenkins:/var/jenkins_home \
+  --name jenkins-local \
+  jenkins/jenkins:lts
+
