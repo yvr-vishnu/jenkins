@@ -78,6 +78,8 @@ Demo-5 What if admin password is forgotten and needs to be reset
 
     -> we desable security -> reset admin password -> then enable security again
 
+    change -test
+
 
 
 
