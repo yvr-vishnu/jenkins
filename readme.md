@@ -78,6 +78,18 @@ Demo-5 What if admin password is forgotten and needs to be reset
 
     -> we desable security -> reset admin password -> then enable security again
 
+    Demo6 Add a private repo to the source code management 
+        ->  Make sure Jenkins master and woker is up and running
+        ->  Node has been added in jenkins
+        ->  Login to worker machine run ssh-keygen
+        ->  This will create private and public key under .ssh folder
+        ->  Copy public key and in Github -> settings -> SSH and GPG Keys -> crete  a new ssh key and add pub key there
+        ->  Now take any private git repo of yours ssh url and try to clone from worker machine
+        -> It should be successful
+        -> Now try to add the ssh git url under source code management and save it
+        -> Run build now you should be successfully able to run job.
+        -> Note dont add any cred under git url just save
+
 
 
 
