@@ -78,6 +78,7 @@ Demo-5 What if admin password is forgotten and needs to be reset
 
     -> we desable security -> reset admin password -> then enable security again
 
+<<<<<<< HEAD
     Demo6 Add a private repo to the source code management 
         ->  Make sure Jenkins master and woker is up and running
         ->  Node has been added in jenkins
@@ -89,6 +90,9 @@ Demo-5 What if admin password is forgotten and needs to be reset
         -> Now try to add the ssh git url under source code management and save it
         -> Run build now you should be successfully able to run job.
         -> Note dont add any cred under git url just save
+=======
+    change -test
+>>>>>>> a6718f5d67feaca45e117d596a9411de8024355b
 
 
 
